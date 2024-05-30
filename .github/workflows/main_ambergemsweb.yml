@@ -60,5 +60,6 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'YourAppName' # Замените на имя вашего приложения
+          app-name: 'AmberGemsWeb'
+          slot-name: 'Production'
           package: dist
